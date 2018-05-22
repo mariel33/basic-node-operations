@@ -1,0 +1,35 @@
+1. `sort` - Sort returns the content of the file sorted alphabetically by line:
+commands.evaluateCmd(userInput);
+    userInput = userInput.toString().trim();
+
+
+
+});
+const commands = require("./commands.js");
+process.stdin.on('data', (userInput) => {
+process.stdout.write('prompt > ');
+ 
+`wc`- wc returns the number of lines, words and characters in a file:
+ 8  16 216 bash.js
+
+`uniq`- sorts the lines in the file and only returns the unique lines:
+const commands = require("./commands.js");
+
+process.stdout.write('prompt > ');
+
+process.stdin.on('data', (userInput) => {
+    userInput = userInput.toString().trim();
+
+    commands.evaluateCmd(userInput);
+});
+
+
+2.
+cat commands.js | wc
+     36      74     901
+These commands concatenated the commands.js file and then outputted the lines, words and characters.
+
+6. 
+function reverseString(inputString) {
+   return inputString.split("").reverse().join("");
+}
