@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mariel33/basic-node-operations/issues"
   },
-  "homepage": "https://github.com/mariel33/basic-node-operations#readme"
+  "homepage": "https://github.com/mariel33/basic-node-operations#readme",
+  "dependencies": {
+    "read-last-lines": "^1.4.0",
+    "readline-specific": "^1.0.4"
+  }
 }
