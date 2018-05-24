@@ -1,0 +1,27 @@
+1. The differencce between readdir and readdirSync is that 
+readdir is an asynchronous, non-blocking method to read a directory 
+while readdirSync is a synchronous, blocking method to read a directory.
+When readdirSync is called, no additional code can be called until it is finished executing.
+
+2. The event loop is a system to process events sequentially from the event queue.
+If the event is asynchronous, node asks the operating system to notify it when the 
+event is ready for processing. Meanwhile, it continues to process other events in the queue.
+
+3. This code is synchronous and blocking.
+
+4. This code is asynchronous and non-blocking.
+
+5. The console.log statements will execute C, A, B. 
+
+6. The functions will run hello() followed by greeting() because the 
+setTimeout function adds the function to the task queue for the timeout and moves 
+on to call hello().
+
+7. 
+console.log("Hi");
+
+setTimeout(function timeout() {
+    console.log("Timeout Finished");
+}, 5000);
+
+console.log("Done");
